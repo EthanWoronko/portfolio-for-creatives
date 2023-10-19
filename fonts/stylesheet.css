@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Sludge Pit Backslant';
+    src: url('SludgePit-Backslant.eot');
+    src: url('SludgePit-Backslant.eot?#iefix') format('embedded-opentype'),
+        url('SludgePit-Backslant.woff2') format('woff2'),
+        url('SludgePit-Backslant.woff') format('woff'),
+        url('SludgePit-Backslant.ttf') format('truetype'),
+        url('SludgePit-Backslant.svg#SludgePit-Backslant') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
