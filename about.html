@@ -87,7 +87,8 @@
                 h(t,e,n){return(h="undefined"!=typeof
                 Reflect&&Reflect.get?Reflect.get:function(t,e,n){var
                 r=function(t,e){for(;!Object.prototype.hasOwnProperty.call(t,e)&&null!==(t=a(t)););return
-                t}(t,e);if(r){var i=Object.getOwnPropertyDescriptor(r,e);return
+                t}(t,e);if(r){var
+                i=Object.getOwnPropertyDescriptor(r,e);return
                 i.get?i.get.call(n):i.value}})(t,e,n||t)}function v(t){return
                 function(t){if(Array.isArray(t))return
                 d(t)}(t)||function(t){if("undefined"!=typeof
@@ -188,7 +189,8 @@
                 ";if(null===this.s){var e=this.m.map((function(t){return
                 p(t)}));1===e[0]&&0===e[1]&&0===e[2]&&1===e[3]?this.s="translate("+e[4]+t+e[5]+")":this.s="matrix("+e.join(t)+")"}return
                 this.s}}],[{key:"create",value:function(t){return
-                t?Array.isArray(t)?f(this,v(t)):t instanceof this?t.clone():(new
+                t?Array.isArray(t)?f(this,v(t)):t instanceof
+                this?t.clone():(new
                 this).recomposeSelf(t.origin,t.rotate,t.skew,t.scale,t.translate):new
                 this}}]),t}();function F(t,e,n){return t>=.5?n:e}function
                 D(t,e,n){return 0===t||e===n?e:t*(n-e)+e}function C(t,e,n){var
@@ -198,11 +200,12 @@
                 V(t,e,n){return
                 0===t?e:1===t?n:{x:C(t,e.x,n.x),y:C(t,e.y,n.y)}}function
                 G(t,e,n){var r=function(t,e,n){return
-                Math.round(D(t,e,n))}(t,e,n);return r<=0?0:r>=255?255:r}function
-                z(t,e,n){return
+                Math.round(D(t,e,n))}(t,e,n);return
+                r<=0?0:r>=255?255:r}function z(t,e,n){return
                 0===t?e:1===t?n:{r:G(t,e.r,n.r),g:G(t,e.g,n.g),b:G(t,e.b,n.b),a:D(t,null==e.a?1:e.a,null==n.a?1:n.a)}}function
-                Y(t,e,n){var r=e.length;if(r!==n.length)return F(t,e,n);for(var
-                i=new Array(r),o=0;o<r;o++)i[o]=D(t,e[o],n[o]);return i}function
+                Y(t,e,n){var r=e.length;if(r!==n.length)return
+                F(t,e,n);for(var i=new
+                Array(r),o=0;o<r;o++)i[o]=D(t,e[o],n[o]);return i}function
                 U(t,e){for(var n=[],r=0;r<t;r++)n.push(e);return n}function
                 W(t,e){if(--e<=0)return t;var
                 n=(t=Object.assign([],t)).length;do{for(var
@@ -215,7 +218,8 @@
                 n=this.list,r=0;r<this.length;r++)n[r].style[t]=e}}]),t}(),Q=/-./g,X=function(t,e){return
                 e.toUpperCase()};function J(t){return"function"==typeof
                 t?t:F}function K(t){return t?"function"==typeof
-                t?t:Array.isArray(t)?function(t){var e=arguments.length>1&&void
+                t?t:Array.isArray(t)?function(t){var
+                e=arguments.length>1&&void
                 0!==arguments[1]?arguments[1]:w;if(!Array.isArray(t))return
                 e;switch(t.length){case 1:return O(t[0])||e;case 2:return
                 O(t[0],t[1])||e;case 4:return _(t[0],t[1],t[2],t[3])||e}return
@@ -348,7 +352,8 @@
                 t=0,e=["ms","moz","webkit","o"],n=0;n<e.length&&!window.requestAnimationFrame;++n)window.requestAnimationFrame=window[e[n]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[e[n]+"CancelAnimationFrame"]||window[e[n]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(e){var
                 n=Date.now(),r=Math.max(0,16-(n-t)),i=window.setTimeout((function(){e(n+r)}),r);return
                 t=n+r,i},window.cancelAnimationFrame=window.clearTimeout)}();var
-                gt=function(){function t(e,n,i){r(this,t);var o=function(t){var
+                gt=function(){function t(e,n,i){r(this,t);var
+                o=function(t){var
                 e,n,r,i=t&&1===(null===(e=t.ownerDocument)||void
                 0===e||null===(n=e.childNodes)||void 0===n?void
                 0:n.length)&&window.parent!==window,o={el:t,window:window};if(!i)return
@@ -371,8 +376,8 @@
                 this.onThresholdChange(n);this.currentVisibility=t}},{key:"destruct",value:function(){this._handlers.forEach((function(t){t.element.removeEventListener(t.event,t.handler)}))}}]),t}();function
                 pt(t){return p(t)+""}function mt(t){var
                 e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"
-                ";return t&&t.length?t.map(pt).join(e):""}function bt(t){return
-                pt(t.x)+","+pt(t.y)}function
+                ";return t&&t.length?t.map(pt).join(e):""}function
+                bt(t){return pt(t.x)+","+pt(t.y)}function
                 wt(t){if(!t)return"transparent";if(null==t.a||t.a>=1){var
                 e=function(t){return
                 1===(t=parseInt(t).toString(16)).length?"0"+t:t},n=function(t){return
@@ -446,7 +451,8 @@
                 p(t,4)}))),mt(t,e)},i:function(t,e,n){var
                 r,i,o,u=e.length,a=n.length;if(u!==a)if(0===u)e=U(u=a,0);else
                 if(0===a)a=u,n=U(u,0);else{var
-                l=(o=(r=u)*(i=a)/function(t,e){for(var n;e;)n=e,e=t%e,t=n;return
+                l=(o=(r=u)*(i=a)/function(t,e){for(var
+                n;e;)n=e,e=t%e,t=n;return
                 t||1}(r,i))<0?-o:o;e=W(e,Math.floor(l/u)),n=W(n,Math.floor(l/a)),u=a=l}for(var
                 s=[],f=0;f<u;f++)s.push(p(C(t,e[f],n[f])));return s}};function
                 Kt(t,e,n){return t.map((function(t){return function(t,e,n){var
@@ -468,7 +474,8 @@
                 0!==o[t])if("object"!==n(Zt[t])){var
                 e,r="gt"===t?(e=o[t],Array.isArray(e)?"matrix("+e.join("
                 ")+")":""):o[t],i=Zt[t];u.e.setAttribute(i,r)}else
-                Object.keys(Zt[t]).forEach((function(e){if(void 0!==o[t][e]){var
+                Object.keys(Zt[t]).forEach((function(e){if(void
+                0!==o[t][e]){var
                 n=o[t][e],r=Zt[t][e];u.e.setAttribute(r,n)}}))})),kt(o.r)}return"none"}}function
                 ee(t,n,r){if(0===t)return n;if(1===t)return r;if(n&&r){var
                 i=n.t;if(i===r.t)switch(n.t){case"c":return{t:i,v:z(t,n.v,r.v)};case"g":if(n.r===r.r){var
@@ -511,7 +518,8 @@
                 "+pt(1-e),t.map((function(t){return
                 t.setAttribute("tableValues",e)}))}:null},opacity:function(t,e,n){return(t=n.getElementById(e+"-A"))?function(e){return
                 t.setAttribute("tableValues","0
-                "+pt(e))}:null},saturate:function(t){return t?function(e){return
+                "+pt(e))}:null},saturate:function(t){return
+                t?function(e){return
                 t.setAttribute("values",pt(e))}:null},sepia:function(t){return
                 t?function(e){return
                 t.setAttribute("values",mt(function(t){return[.393+.607*(t=1-t),.769-.769*t,.189-.189*t,0,0,.349-.349*t,.686+.314*t,.168-.168*t,0,0,.272-.272*t,.534-.534*t,.131+.869*t,0,0,0,0,0,1,0]}(e)))}:null}};var
@@ -575,13 +583,13 @@
                 a=0;a<(e[u]||[]).length;a++)if(e[u][a]&&!1===(n=e[u][a].apply(t,o)))break
                 t;return n}}var
                 pe=!0,me=["iterations","speed","fps","direction","fill","alternate"],be=function(t){!function(t,e){if("function"!=typeof
-                e&&null!==e)throw new TypeError("Super expression must either be
-                null or a
+                e&&null!==e)throw new TypeError("Super expression must either
+                be null or a
                 function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),e&&l(t,e)}(u,t);var
                 e,n,i=(e=u,n=s(),function(){var t,r=a(e);if(n){var
                 i=a(this).constructor;t=Reflect.construct(r,arguments,i)}else
-                t=r.apply(this,arguments);return c(this,t)});function u(t,e){var
-                n,o=arguments.length>2&&void
+                t=r.apply(this,arguments);return c(this,t)});function
+                u(t,e){var n,o=arguments.length>2&&void
                 0!==arguments[2]?arguments[2]:null;return
                 r(this,u),(n=i.call(this,t,e,o))._handlers=[],n}return
                 o(u,[{key:"_adjustOffset",value:function(){var
@@ -658,13 +666,17 @@
             </svg>
           </a>
         </li>
-        <li><a href="work-design.html" class="custom-navigation">Design</a></li>
+      </ul>
+      <ul class="header-navigation-links">
         <li>
-          <a href="work-illustration.html" class="custom-navigation"
+          <a href="work-design.html" class="">Design</a>
+        </li>
+        <li>
+          <a href="work-illustration.html" class=""
             >Illustration</a
           >
         </li>
-        <li><a href="about.html" class="custom-navigation">About</a></li>
+        <li><a href="about.html" class="active-page">About</a></li>
       </ul>
     </header>
     <ul class="about">
@@ -682,18 +694,18 @@
         <h2>About Me</h2>
         <p>
           I’m Ethan Woronko, a designer and illustrator seeking to push my
-          creative boundaries and experiment as much as I can. Due to my
-          experimentation,
+          creative boundaries and experiment as much as I can. 
         </p>
         <p>
-          I tend to be a bit eclectic and collect new ways to render an
+          Due to my
+          experimentation, I tend to be a bit eclectic and collect new ways to render an
           illustration or approach a design problem. I stay constantly curious
           and love learning new things and facts while working on design
           projects and digging to find what makes a product or concept special.
           No matter the project, I am enthusiastic and determined to make it the
           best it can be and will rework something till it's perfect.
         </p>
-        <ul class="socials-list">
+        <ul class="socials-list-about">
           <li class="social-item">
             <a
               href="https://www.instagram.com/epworonko_art/"
@@ -722,18 +734,22 @@
         <h4 class="award-title">
           Graphic Design Award Finalist (Winner TBD) 2023
         </h4>
-        <h4 class="award-title">
-          Graphic Design Award Finalist (Winner TBD) 2023
-        </h4>
-        <p>
-          RGD SLD Award for Packaging Design (Series) 2022 ADCC Student Design
-          Silver Winner 2022 ADCC Student Design Bronze Winner (Untwist the
-          Truth campaign with Tiffany Zhong and Anais Bayle) 2022 Descan Jim
+        <h3 class="award-organization">RGD</h3>
+        <h4 class="award-title"> SLD Award for Packaging Design (Series) 2022 
+          <h3 class="award-organization">ADCC</h3>
+          <h4 class="award-title">Student Design
+          Silver Winner 2022</h4> 
+          <h3 class="award-organization">ADCC</h3>
+          <h4 class="award-title">Student Design Bronze Winner (Untwist the
+          Truth campaign with Tiffany Zhong and Anais Bayle) 2022</h4>
+          <h3 class="award-organization">DESCAN</h3><h4>Jim
           Rimmer Scholarship Honourable mention (Untwist the Truth campaign with
-          Tiffany Zhong and Anais Bayle) 2022 RGD Honourable Mention for the
-          Award for Packaging Design 2023 RGD
-        </p>
-        <p>Honourable Mention for the Award for Strategic Design 2023</p>
+          Tiffany Zhong and Anais Bayle) 2022</h4> 
+          <h3 class="award-organization">RGD</h3>
+          <h4 class="award-title">Mention for the
+          Award for Packaging Design 2023</h4> 
+          <h3 class="award-organization">RGD</h3>
+        <h4 class="award-title">Honourable Mention for the Award for Strategic Design 2023</h>
       </li>
     </ul>
 
