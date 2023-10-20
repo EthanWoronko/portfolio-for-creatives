@@ -286,9 +286,14 @@ a.inactive-page {
 
 .button {
   border-radius: 2rem;
-  border: 2px solid orange;
+  border: 2px solid #f36e25;
   display: inline-block;
   padding: 1rem 2rem;
+}
+
+.button:hover {
+background: #f36e25;
+
 }
 
 .footer-nav-item {
@@ -302,6 +307,12 @@ a.inactive-page {
 a.award-organization {
   font-size: 0.2rem;
   font-weight: 400;
+}
+
+.about-title {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  display: inline-block;
 }
 
 .award-title {
