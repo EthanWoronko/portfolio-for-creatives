@@ -234,10 +234,10 @@ a:visited {
 a:hover {
   color: var(--hover-color);
 }
-
+/*
 a:focus {
   outline: 1px solid var(--accent-color);
-}
+}*/
 
 a:active {
   color: var(--hover-color);
