@@ -202,6 +202,7 @@ em {
 
 .hero-headline {
   color: var(--overlay-color);
+  font-size
 }
 
 .project-title {
@@ -410,7 +411,7 @@ a.award-organization {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  padding: 4rem 6rem;
+ padding: 1rem;
   text-align: left;
 }
 
@@ -472,6 +473,16 @@ a.award-organization {
   /* Required to contain overlay size */
 }
 
+.work-page-grid-item-wide {
+  width: 100%;
+  height: auto;
+  position: relative;
+  /* Required to contain overlay size */
+ 
+}
+
+
+
 /* Overlay */
 .overlay {
   position: absolute;
@@ -525,7 +536,7 @@ a.award-organization {
 }
 
 .bio {
-  font-size: 1.45rem;
+  font-size: 1.15rem;
 }
 
 /* Global Footer
@@ -918,6 +929,11 @@ a.sub-navigation-link:hover {
     text-transform: uppercase;
   }
 
+  .bio {
+    font-size: 1.45rem;
+  }
+
+
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     grid-gap: 1rem;
@@ -936,6 +952,15 @@ a.sub-navigation-link:hover {
   .work-page-grid-item > a.grayscale:active img,
   .work-page-grid-item > a.grayscale:hover img {
     filter: grayscale(0);
+  }
+
+  
+  .work-page-grid-item-wide {
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* Required to contain overlay size */
+    grid-column:  span 2;
   }
 
   .about {
