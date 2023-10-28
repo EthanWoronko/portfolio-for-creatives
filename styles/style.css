@@ -326,8 +326,9 @@ a.award-organization {
 
 .award-title {
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   display: inline-block;
+  line-height: 1.3rem;
 }
 
 .award-title:hover {
@@ -521,7 +522,7 @@ a.award-organization {
 .about {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10rem;
+  grid-gap: 2.5rem;
   background: var(--background-color-about);
   padding: 1rem;
   flex: 1;
@@ -533,10 +534,15 @@ a.award-organization {
 .about-item-2 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+  padding-bottom: 2rem;
 }
 
 .bio {
   font-size: 1.15rem;
+}
+
+.about-info {
+  padding-top: 2rem;
 }
 
 /* Global Footer
@@ -630,7 +636,7 @@ a.footer-email-link {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
+ 
   /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
   align-items: center;
@@ -965,6 +971,7 @@ a.sub-navigation-link:hover {
 
   .about {
     padding: 4rem;
+    grid-gap: 10rem;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -995,6 +1002,7 @@ a.sub-navigation-link:hover {
   .about-item-2 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    /* padding-bottom: 0; */
   }
 
   /* Padding around work grid and project page */
@@ -1023,10 +1031,10 @@ a.sub-navigation-link:hover {
     width: 65%;
   }
 
-  .project-image {
-    min-height: 70vh;
+  /* .project-image {}
+    
     /* This should be deleted if you want to remove space between project images on project pages */
-  }
+   
 
   .project-image-container {
     flex-direction: row;
