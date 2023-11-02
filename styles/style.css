@@ -665,6 +665,21 @@ a.footer-email-link {
   background-color: #EEDFC6;
   padding: 3.5rem 2rem 3rem 2rem;
 }
+
+.project-text-keero {
+  width: 100%;
+ 
+  /* min-height should be deleted if you want to remove space between project images on project pages */
+  display: flex;
+ 
+  justify-content: center;
+  margin-top: 2rem;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  background-color: #083d41;
+  padding: 3.5rem 2rem 3rem 2rem;
+}
+
 .project-text-head {
  text-align: left;
   color:#000000;
@@ -676,9 +691,20 @@ a.footer-email-link {
   padding-top: 2rem;
 }
 
+.project-text-head-light {
+  text-align: left;
+   color:#ebedf0;
+ }
+
 .project-text-body {
   font-size: 1.25rem;
 
+font-weight: 400;
+}
+
+.project-text-body-light {
+  font-size: 1.25rem;
+color: #ebedf0;
 font-weight: 400;
 }
 
@@ -1052,9 +1078,29 @@ a.sub-navigation-link:hover {
     background-color: #EEDFC6;
     padding: 4.5rem 5.5rem 4rem 5.5rem;
   }
+
+  .project-text-oystercatcher {
+    width: 100%;
+   
+    /* min-height should be deleted if you want to remove space between project images on project pages */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    background-color: #083d41;
+    padding: 4.5rem 5.5rem 4rem 5.5rem;
+  }
+
   .project-text-head {
    
     color:#000000;
+  }
+
+  .project-text-head-light {
+   
+    color:#ebedf0;
   }
   
   .project-text-head-2 {
@@ -1065,6 +1111,12 @@ a.sub-navigation-link:hover {
   
   .project-text-body {
     
+    text-align: center;
+  font-weight: 400;
+  }
+
+  .project-text-body-light {
+    color: #ebedf0;
     text-align: center;
   font-weight: 400;
   }
