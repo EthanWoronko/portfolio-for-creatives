@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
 
 
 <!-- 
@@ -20,29 +23,89 @@
 
 
 <url>
-  <loc>https://portfolio-2022.netlify.app/</loc>
-  <lastmod>2021-11-18T08:55:17+00:00</lastmod>
+  <loc>https://ethanworonko.com/</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://portfolio-2022.netlify.app/index.html</loc>
-  <lastmod>2021-11-18T08:55:17+00:00</lastmod>
+  <loc>https://ethanworonko.com/work</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://portfolio-2022.netlify.app/about.html</loc>
-  <lastmod>2021-11-18T08:55:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://portfolio-2022.netlify.app/project-1.html</loc>
-  <lastmod>2021-11-18T08:55:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://portfolio-2022.netlify.app/project-2.html</loc>
-  <lastmod>2021-11-18T08:55:17+00:00</lastmod>
+  <loc>https://ethanworonko.com/work-design</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/work-illustration</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/about</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-2-keero</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-8-woodward</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-3-oystercatcher</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-1-festival</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-5-font</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/work-personal</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-4-animals</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-13-untwist</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-7-dune</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-10-jazz</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-11-space</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ethanworonko.com/project-12-overconsumption</loc>
+  <lastmod>2023-11-02T15:52:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
