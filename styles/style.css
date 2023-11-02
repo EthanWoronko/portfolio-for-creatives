@@ -212,6 +212,14 @@ em {
   margin-bottom: 1rem;
 }
 
+a.project-case-study {
+  font-size: 3.725rem;
+  font-family: var(--project-title-typeface);
+  color: var(--project-title-color);
+  margin: 2rem;
+  place-self: center;
+}
+
 .overlay-title {
   font-size: 2.875rem;
   color: var(--overlay-title-color);
@@ -644,6 +652,36 @@ a.footer-email-link {
   margin-bottom: 1rem;
 }
 
+.project-text-keero {
+  width: 100%;
+ 
+  /* min-height should be deleted if you want to remove space between project images on project pages */
+  display: flex;
+ 
+  justify-content: center;
+  margin-top: 2rem;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  background-color: #EEDFC6;
+  padding: 3.5rem 2rem 3rem 2rem;
+}
+.project-text-head {
+ text-align: left;
+  color:#000000;
+}
+
+.project-text-head-2 {
+  text-align: left;
+  color:#000000;
+  padding-top: 2rem;
+}
+
+.project-text-body {
+  font-size: 1.25rem;
+
+font-weight: 400;
+}
+
 .large-emoji-placeholder {
   font-size: 12rem; /* This is for making the placeholder emojis large and should be deleted */
 }
@@ -652,11 +690,7 @@ a.footer-email-link {
   width: 100%;
 }
 
-.project-text {
-  width: 100%;
-  font-size: 3.25rem;
-  padding: 3rem;
-}
+
 
 /* Main Project Image Area */
 
@@ -1005,6 +1039,36 @@ a.sub-navigation-link:hover {
     /* padding-bottom: 0; */
   }
 
+  .project-text-keero {
+    width: 100%;
+   
+    /* min-height should be deleted if you want to remove space between project images on project pages */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    background-color: #EEDFC6;
+    padding: 4.5rem 5.5rem 4rem 5.5rem;
+  }
+  .project-text-head {
+   
+    color:#000000;
+  }
+  
+  .project-text-head-2 {
+   
+    color:#000000;
+    padding-top: 2rem;
+  }
+  
+  .project-text-body {
+    
+    text-align: center;
+  font-weight: 400;
+  }
+
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
@@ -1018,12 +1082,12 @@ a.sub-navigation-link:hover {
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 35%;
+    width: 30%;
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
     top: 5vh;
-    padding-right: 2rem;
+    padding-right: 4rem;
   }
 
   /* Main Project Image Area on Large Devices */
