@@ -401,7 +401,7 @@ a.award-organization {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 1.2rem;
   align-items: center;
 }
 .branding-navigation {
@@ -409,11 +409,13 @@ a.award-organization {
 }
 
 .header-navigation-links {
-  display: flex;
+  display:flex;
   flex-direction: row;
   padding: 1rem 0 1rem 1rem; /* Top Right Bottom Left */
   justify-content: space-between;
   width: 100%;
+
+  
 }
 
 .hero-headline-wrapper {
@@ -666,7 +668,7 @@ a.footer-email-link {
   padding: 3.5rem 2rem 3rem 2rem;
 }
 
-.project-text-keero {
+.project-text-oystercatcher {
   width: 100%;
  
   /* min-height should be deleted if you want to remove space between project images on project pages */
@@ -991,8 +993,19 @@ a.sub-navigation-link:hover {
   }
 
   .header-navigation-links {
-    width: 40%;
+    display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem 1rem; /* Top Right Bottom Left */
+  justify-content: space-between;
+  
+    width: 35%;
     text-transform: uppercase;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  
   }
 
   .bio {
