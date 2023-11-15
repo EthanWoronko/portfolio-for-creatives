@@ -202,7 +202,6 @@ em {
 
 .hero-headline {
   color: var(--overlay-color);
-
 }
 
 .project-title {
@@ -301,8 +300,7 @@ a.inactive-page {
 }
 
 .button:hover {
-background: #f36e25;
-
+  background: #f36e25;
 }
 
 .footer-nav-item {
@@ -327,10 +325,7 @@ a.award-organization {
 .about-title-work {
   font-size: 1rem;
   margin-bottom: 0.4rem;
-  
 }
-
-
 
 .award-title {
   font-size: 1rem;
@@ -409,20 +404,18 @@ a.award-organization {
 }
 
 .header-navigation-links {
-  display:flex;
+  display: flex;
   flex-direction: row;
   padding: 1rem 0 1rem 1rem; /* Top Right Bottom Left */
   justify-content: space-between;
   width: 100%;
-
-  
 }
 
 .hero-headline-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: left;
- padding: 1rem;
+  padding: 1rem;
   text-align: left;
 }
 
@@ -460,7 +453,6 @@ a.award-organization {
 
 /* Padding around work grid and project page */
 
-
 /* Defining the work page grid */
 .grid {
   display: grid;
@@ -486,10 +478,7 @@ a.award-organization {
   height: auto;
   position: relative;
   /* Required to contain overlay size */
- 
 }
-
-
 
 /* Overlay */
 .overlay {
@@ -643,7 +632,7 @@ a.footer-email-link {
 
 .project-image {
   width: 100%;
- 
+
   /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
   align-items: center;
@@ -653,24 +642,24 @@ a.footer-email-link {
 
 .project-text-keero {
   width: 100%;
- 
+
   /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
- 
+
   justify-content: center;
   margin-top: 2rem;
   flex-direction: column;
   margin-bottom: 2rem;
-  background-color: #EEDFC6;
+  background-color: #eedfc6;
   padding: 3.5rem 2rem 3rem 2rem;
 }
 
 .project-text-oystercatcher {
   width: 100%;
- 
+
   /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
- 
+
   justify-content: center;
   margin-top: 2rem;
   flex-direction: column;
@@ -680,31 +669,31 @@ a.footer-email-link {
 }
 
 .project-text-head {
- text-align: left;
-  color:#000000;
+  text-align: left;
+  color: #000000;
 }
 
 .project-text-head-2 {
   text-align: left;
-  color:#000000;
+  color: #000000;
   padding-top: 2rem;
 }
 
 .project-text-head-light {
   text-align: left;
-   color:#ebedf0;
- }
+  color: #ebedf0;
+}
 
 .project-text-body {
   font-size: 1.25rem;
 
-font-weight: 400;
+  font-weight: 400;
 }
 
 .project-text-body-light {
   font-size: 1.25rem;
-color: #ebedf0;
-font-weight: 400;
+  color: #ebedf0;
+  font-weight: 400;
 }
 
 .large-emoji-placeholder {
@@ -714,8 +703,6 @@ font-weight: 400;
 .text-section {
   width: 100%;
 }
-
-
 
 /* Main Project Image Area */
 
@@ -961,6 +948,9 @@ a.sub-navigation-link:hover {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+  body {
+    background: yellowgreen;
+  }
   .holding-page-title {
     font-size: 2rem;
   }
@@ -990,27 +980,22 @@ a.sub-navigation-link:hover {
   }
 
   .hero-header {
-  
     padding: 4rem;
-    
   }
 
   .header-navigation-links {
     display: flex;
-  flex-direction: row;
-  padding: 1rem 0 1rem 1rem; /* Top Right Bottom Left */
-  justify-content: space-between;
-  
+    flex-direction: row;
+    padding: 1rem 0 1rem 1rem; /* Top Right Bottom Left */
+    justify-content: space-between;
+
     width: 35%;
     text-transform: uppercase;
   }
 
-  
-
   .bio {
     font-size: 1.45rem;
   }
-
 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
@@ -1018,8 +1003,9 @@ a.sub-navigation-link:hover {
   }
 
   .grid-work-personal {
+    background: pink;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
   }
 
   /* Grayscale filter with full-colour on hover and tap */
@@ -1032,13 +1018,12 @@ a.sub-navigation-link:hover {
     filter: grayscale(0);
   }
 
-  
   .work-page-grid-item-wide {
     width: 100%;
     height: auto;
     position: relative;
     /* Required to contain overlay size */
-    grid-column:  span 2;
+    grid-column: span 2;
   }
 
   .about {
@@ -1053,9 +1038,7 @@ a.sub-navigation-link:hover {
   }
 
   .social-item {
-  
     margin-left: 2rem;
-    
   }
 
   .footer-item-1 {
@@ -1086,7 +1069,7 @@ a.sub-navigation-link:hover {
 
   .project-text-keero {
     width: 100%;
-   
+
     /* min-height should be deleted if you want to remove space between project images on project pages */
     display: flex;
     align-items: center;
@@ -1094,13 +1077,13 @@ a.sub-navigation-link:hover {
     margin-top: 2rem;
     flex-direction: column;
     margin-bottom: 2rem;
-    background-color: #EEDFC6;
+    background-color: #eedfc6;
     padding: 4.5rem 5.5rem 4rem 5.5rem;
   }
 
   .project-text-oystercatcher {
     width: 100%;
-   
+
     /* min-height should be deleted if you want to remove space between project images on project pages */
     display: flex;
     align-items: center;
@@ -1113,31 +1096,27 @@ a.sub-navigation-link:hover {
   }
 
   .project-text-head {
-   
-    color:#000000;
+    color: #000000;
   }
 
   .project-text-head-light {
-   
-    color:#ebedf0;
+    color: #ebedf0;
   }
-  
+
   .project-text-head-2 {
-   
-    color:#000000;
+    color: #000000;
     padding-top: 2rem;
   }
-  
+
   .project-text-body {
-    
     text-align: center;
-  font-weight: 400;
+    font-weight: 400;
   }
 
   .project-text-body-light {
     color: #ebedf0;
     text-align: center;
-  font-weight: 400;
+    font-weight: 400;
   }
 
   /* Padding around work grid and project page */
@@ -1169,7 +1148,6 @@ a.sub-navigation-link:hover {
   /* .project-image {}
     
     /* This should be deleted if you want to remove space between project images on project pages */
-   
 
   .project-image-container {
     flex-direction: row;
@@ -1189,21 +1167,42 @@ a.sub-navigation-link:hover {
 /* X-Large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
+  body {
+    background: orangered;
+  }
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
     grid-gap: 1rem;
+  }
+  .grid-work-personal {
+    background: green;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+  }
+
+  .grid-work-personal-double {
+    background: blue;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
 @media (min-width: 1400px) {
+  body {
+    background: goldenrod;
+  }
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
     grid-gap: 1rem;
   }
   .grid-work-personal {
+    background: green;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    grid-template-columns: repeat(4, minmax(400px, 1fr));
   }
 }
