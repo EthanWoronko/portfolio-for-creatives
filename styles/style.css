@@ -459,10 +459,7 @@ a.award-organization {
 }
 
 /* Padding around work grid and project page */
-.portfolio,
-.project-wrapper {
-  padding: 0.25rem;
-}
+
 
 /* Defining the work page grid */
 .grid {
