@@ -76,7 +76,7 @@ html {
   --background-color-about: #fdfdff;
   --background-color-footer: #fdfdff;
   --alt-background-color: #000000;
-  --background-color-holding-page: rgba(82, 0, 255, 0.6);
+
   --h1-color: #000000;
   --h2-color: #000000;
   --h3-color: #000000;
@@ -96,7 +96,7 @@ html {
   --project-title-color: #000000;
   --project-sidebar-background-color: orangered;
   --project-sidebar-text-color: white;
-  --heart-color: darkred;
+  
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #ffffff;
   --linear-gradient-color-1: #ffffff;
