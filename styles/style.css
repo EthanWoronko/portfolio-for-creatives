@@ -949,7 +949,7 @@ a.sub-navigation-link:hover {
 
 @media (min-width: 992px) {
   body {
-    background: yellowgreen;
+    
   }
   .holding-page-title {
     font-size: 2rem;
@@ -1003,7 +1003,7 @@ a.sub-navigation-link:hover {
   }
 
   .grid-work-personal {
-    background: pink;
+    
     display: grid;
     grid-template-columns: repeat(2, minmax(400px, 1fr));
   }
@@ -1168,20 +1168,20 @@ a.sub-navigation-link:hover {
 
 @media (min-width: 1200px) {
   body {
-    background: orangered;
+   
   }
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
     grid-gap: 1rem;
   }
   .grid-work-personal {
-    background: green;
+    
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
   }
 
   .grid-work-personal-double {
-    background: blue;
+    
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -1194,14 +1194,14 @@ a.sub-navigation-link:hover {
 
 @media (min-width: 1400px) {
   body {
-    background: goldenrod;
+    
   }
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
     grid-gap: 1rem;
   }
   .grid-work-personal {
-    background: green;
+    
     display: grid;
     grid-template-columns: repeat(4, minmax(400px, 1fr));
   }
